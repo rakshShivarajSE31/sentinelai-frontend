@@ -10,7 +10,7 @@ interface UseWebSocketReturn {
   clearNewIncidents: () => void;
 }
 
-const WS_URL = 'http://localhost:8080/ws';
+const WS_URL = process.env.REACT_APP_WS_URL || 'http://localhost:8080/ws';
 
 export const useWebSocket = (): UseWebSocketReturn => {
   const [isConnected, setIsConnected] = useState(false);
