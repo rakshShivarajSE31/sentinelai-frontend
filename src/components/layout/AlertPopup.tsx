@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { AlertTriangle, X, ExternalLink } from 'lucide-react';
+import { AlertTriangle, X } from 'lucide-react';
 
 interface AlertPopupProps {
   incident: any;

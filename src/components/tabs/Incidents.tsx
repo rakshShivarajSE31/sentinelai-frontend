@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { AlertTriangle, CheckCircle, Clock, ChevronDown, ChevronUp, Search, Filter, Download, Shield, Eye, TrendingUp, Zap, FileText } from 'lucide-react';
+import { AlertTriangle, CheckCircle, ChevronDown, ChevronUp, Search, Filter, Download, Shield, Eye, TrendingUp, Zap, FileText } from 'lucide-react';
 import { Incident, DetectiveResult, AnalystResult, RiskResult, ActionResult } from '../../types';
 import { getAllIncidents, resolveIncident } from '../../services/api';
 

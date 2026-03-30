@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Play, Square, Zap, Activity, AlertTriangle, Clock, Building2 } from 'lucide-react';
+import { Play, Square, Zap, Activity, Building2 } from 'lucide-react';
 import { startGenerator, stopGenerator, getGeneratorStatus, injectAnomaly } from '../../services/api';
 
 const INDUSTRY_MODES = [

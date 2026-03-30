@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { BarChart3, PieChart, TrendingUp, Users, AlertTriangle, CheckCircle, RefreshCw } from 'lucide-react';
-import {
-  PieChart as RechartsPie, Pie, Cell, Tooltip, ResponsiveContainer,
-  BarChart, Bar, XAxis, YAxis, CartesianGrid, Legend
-} from 'recharts';
+import { PieChart, TrendingUp, Users, AlertTriangle, CheckCircle, RefreshCw } from 'lucide-react';
+import { PieChart as RechartsPie, Pie, Cell, Tooltip, ResponsiveContainer, BarChart, Bar, XAxis, YAxis, CartesianGrid } from 'recharts';
 import { AnalyticsSummary, AnalyticsTrends } from '../../types';
 import { getAnalyticsSummary, getAnalyticsTrends } from '../../services/api';
 

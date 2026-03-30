@@ -33,7 +33,7 @@ const App: React.FC = () => {
       // Update page title
       document.title = `🔴 ${unreadIncidents + newIncidents.length} NEW — SentinelAI`;
     }
-  }, [newIncidents]);
+  }, [newIncidents, activeTab, unreadIncidents]);
 
   // Clear unread when switching to incidents tab
   const handleTabChange = (tab: Tab) => {
